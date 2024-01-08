@@ -131,6 +131,15 @@ body {
   text-align: center;
 }
 
+.text-h-three {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-navyblue);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
 .portfolio-text-h-two {
   font-size: 20px;
   font-weight: 500;
@@ -175,11 +184,12 @@ body {
 }
 
 .portfolio-button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background: var(--color-cloud);
   color: var(--color-iris);
   text-align: center;
 }
