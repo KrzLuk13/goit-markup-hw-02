@@ -16,7 +16,8 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: var(--color-navyblue);
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 
 .list {
@@ -30,7 +31,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-iris);
   text-transform: uppercase;
@@ -40,7 +41,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-navyblue);
   text-transform: uppercase;
@@ -59,13 +60,17 @@ body {
   color: var(--color-ocean);
 }
 
-.font-nav:visited {
+.font-nav:focus {
   color: var(--color-ocean);
+}
+
+.address {
+  font-style: normal;
 }
 
 .font-adress {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
   color: var(--color-slate);
@@ -74,7 +79,7 @@ body {
 .font-adress:hover {
   color: var(--color-ocean);
 }
-.font-adress:visited {
+.font-adress:focus {
   color: var(--color-ocean);
 }
 
@@ -103,7 +108,7 @@ body {
   font-family: inherit;
 }
 
-.order-service-button:visited {
+.order-service-button:focus {
   background-color: var(--color-ocean);
   font-family: inherit;
 }
@@ -113,7 +118,6 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--color-white);
 }
 
@@ -123,7 +127,7 @@ body {
   line-height: 1.11;
   color: var(--color-navyblue);
   letter-spacing: 0.02em;
-  text-align: center;
+  text-transform: capitalize;
 }
 
 .text-h-three {
@@ -132,7 +136,6 @@ body {
   line-height: 1.2;
   color: var(--color-navyblue);
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .text {
@@ -157,7 +160,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   color: var(--color-cloud);
   text-transform: uppercase;
   letter-spacing: 0.03em;
