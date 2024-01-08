@@ -118,6 +118,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  text-align: center;
 }
 
 .text-h-two {
@@ -127,9 +128,10 @@ body {
   color: var(--color-navyblue);
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
-.text-h-three {
+.portfolio-text-h-two {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -177,16 +179,25 @@ body {
 }
 
 .portfolio-button {
-  background: linear-gradient(0deg, #f4f4fd, #f4f4fd),
-    linear-gradient(0deg, #e7e9fc, #e7e9fc);
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  text-align: center;
+}
+
+.portfolio-button:hover {
+  background: #404bbf;
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--color-iris);
+  color: var(--color-white);
 }
-
-.portfolio-button:hover {
+.portfolio-button:focus {
   background: #404bbf;
   cursor: pointer;
   font-family: inherit;
