@@ -93,7 +93,6 @@ body {
 
 .order-service-button {
   background: var(--color-iris);
-  border: none;
   cursor: pointer;
   font-family: inherit;
   font-size: 16px;
@@ -180,7 +179,6 @@ body {
 .portfolio-button {
   background: linear-gradient(0deg, #f4f4fd, #f4f4fd),
     linear-gradient(0deg, #e7e9fc, #e7e9fc);
-  border: 1px solid #e7e9fc;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -190,7 +188,6 @@ body {
 
 .portfolio-button:hover {
   background: #404bbf;
-  border: none;
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
